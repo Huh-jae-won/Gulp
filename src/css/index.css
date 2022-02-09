@@ -1,0 +1,66 @@
+body, h1, h2, h3, h4, h5, h6,
+ul, ol, dl, dd,
+p, td, th,
+button, input, select, figure,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+body, input, textarea, select, button {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, AppleSDGothicNeo, sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+em, i, address {
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+fieldset {
+  border: 0;
+}
+
+body {
+  width: 300px;
+}
+
+header {
+  background-color: yellow;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  text-align: right;
+}
+
+section {
+  background-color: aqua;
+}
+
+footer {
+  background-color: green;
+}

@@ -1,0 +1,20 @@
+@charset 'utf-8';
+@import "./common/reset";
+
+body {
+  width: 300px;
+}
+
+header {
+  background-color: yellow;
+  transform: rotate(45deg);
+  text-align: right;
+}
+
+section {
+  background-color: aqua;
+}
+
+footer {
+  background-color: green;
+}

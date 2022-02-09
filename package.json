@@ -1,0 +1,31 @@
+{
+  "name": "study_gulp",
+  "version": "1.0.0",
+  "description": "html, scss 자동화 도구 만들기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huh-jae-won/Study_Gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huh-jae-won/Study_Gulp/issues"
+  },
+  "homepage": "https://github.com/Huh-jae-won/Study_Gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.7"
+  },
+  "browserslist": [
+    "chrome > 0",
+    "ie > 0",
+    "firefox > 0"
+  ]
+}
