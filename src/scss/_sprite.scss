@@ -1,0 +1,266 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-arrow-name: 'icon_arrow';
+$icon-arrow-x: 370px;
+$icon-arrow-y: 138px;
+$icon-arrow-offset-x: -370px;
+$icon-arrow-offset-y: -138px;
+$icon-arrow-width: 12px;
+$icon-arrow-height: 18px;
+$icon-arrow-total-width: 432px;
+$icon-arrow-total-height: 304px;
+$icon-arrow-image: 'src/img/sprites/sprite.png';
+$icon-arrow: (370px, 138px, -370px, -138px, 12px, 18px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_arrow', );
+$icon-arrow2-name: 'icon_arrow2';
+$icon-arrow2-x: 356px;
+$icon-arrow2-y: 138px;
+$icon-arrow2-offset-x: -356px;
+$icon-arrow2-offset-y: -138px;
+$icon-arrow2-width: 14px;
+$icon-arrow2-height: 22px;
+$icon-arrow2-total-width: 432px;
+$icon-arrow2-total-height: 304px;
+$icon-arrow2-image: 'src/img/sprites/sprite.png';
+$icon-arrow2: (356px, 138px, -356px, -138px, 14px, 22px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_arrow2', );
+$icon-check-name: 'icon_check';
+$icon-check-x: 356px;
+$icon-check-y: 120px;
+$icon-check-offset-x: -356px;
+$icon-check-offset-y: -120px;
+$icon-check-width: 30px;
+$icon-check-height: 18px;
+$icon-check-total-width: 432px;
+$icon-check-total-height: 304px;
+$icon-check-image: 'src/img/sprites/sprite.png';
+$icon-check: (356px, 120px, -356px, -120px, 30px, 18px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_check', );
+$icon-dot-name: 'icon_dot';
+$icon-dot-x: 424px;
+$icon-dot-y: 60px;
+$icon-dot-offset-x: -424px;
+$icon-dot-offset-y: -60px;
+$icon-dot-width: 4px;
+$icon-dot-height: 4px;
+$icon-dot-total-width: 432px;
+$icon-dot-total-height: 304px;
+$icon-dot-image: 'src/img/sprites/sprite.png';
+$icon-dot: (424px, 60px, -424px, -60px, 4px, 4px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_dot', );
+$icon-facebook-name: 'icon_facebook';
+$icon-facebook-x: 0px;
+$icon-facebook-y: 140px;
+$icon-facebook-offset-x: 0px;
+$icon-facebook-offset-y: -140px;
+$icon-facebook-width: 82px;
+$icon-facebook-height: 82px;
+$icon-facebook-total-width: 432px;
+$icon-facebook-total-height: 304px;
+$icon-facebook-image: 'src/img/sprites/sprite.png';
+$icon-facebook: (0px, 140px, 0px, -140px, 82px, 82px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_facebook', );
+$icon-more-name: 'icon_more';
+$icon-more-x: 386px;
+$icon-more-y: 120px;
+$icon-more-offset-x: -386px;
+$icon-more-offset-y: -120px;
+$icon-more-width: 26px;
+$icon-more-height: 14px;
+$icon-more-total-width: 432px;
+$icon-more-total-height: 304px;
+$icon-more-image: 'src/img/sprites/sprite.png';
+$icon-more: (386px, 120px, -386px, -120px, 26px, 14px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_more', );
+$icon-mt-name: 'icon_mt';
+$icon-mt-x: 82px;
+$icon-mt-y: 222px;
+$icon-mt-offset-x: -82px;
+$icon-mt-offset-y: -222px;
+$icon-mt-width: 98px;
+$icon-mt-height: 58px;
+$icon-mt-total-width: 432px;
+$icon-mt-total-height: 304px;
+$icon-mt-image: 'src/img/sprites/sprite.png';
+$icon-mt: (82px, 222px, -82px, -222px, 98px, 58px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_mt', );
+$icon-school-name: 'icon_school';
+$icon-school-x: 356px;
+$icon-school-y: 0px;
+$icon-school-offset-x: -356px;
+$icon-school-offset-y: 0px;
+$icon-school-width: 76px;
+$icon-school-height: 60px;
+$icon-school-total-width: 432px;
+$icon-school-total-height: 304px;
+$icon-school-image: 'src/img/sprites/sprite.png';
+$icon-school: (356px, 0px, -356px, 0px, 76px, 60px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_school', );
+$icon-shop-name: 'icon_shop';
+$icon-shop-x: 356px;
+$icon-shop-y: 60px;
+$icon-shop-offset-x: -356px;
+$icon-shop-offset-y: -60px;
+$icon-shop-width: 68px;
+$icon-shop-height: 60px;
+$icon-shop-total-width: 432px;
+$icon-shop-total-height: 304px;
+$icon-shop-image: 'src/img/sprites/sprite.png';
+$icon-shop: (356px, 60px, -356px, -60px, 68px, 60px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_shop', );
+$icon-social-band-name: 'icon_social_band';
+$icon-social-band-x: 82px;
+$icon-social-band-y: 140px;
+$icon-social-band-offset-x: -82px;
+$icon-social-band-offset-y: -140px;
+$icon-social-band-width: 82px;
+$icon-social-band-height: 82px;
+$icon-social-band-total-width: 432px;
+$icon-social-band-total-height: 304px;
+$icon-social-band-image: 'src/img/sprites/sprite.png';
+$icon-social-band: (82px, 140px, -82px, -140px, 82px, 82px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_social_band', );
+$icon-social-blog-name: 'icon_social_blog';
+$icon-social-blog-x: 164px;
+$icon-social-blog-y: 140px;
+$icon-social-blog-offset-x: -164px;
+$icon-social-blog-offset-y: -140px;
+$icon-social-blog-width: 82px;
+$icon-social-blog-height: 82px;
+$icon-social-blog-total-width: 432px;
+$icon-social-blog-total-height: 304px;
+$icon-social-blog-image: 'src/img/sprites/sprite.png';
+$icon-social-blog: (164px, 140px, -164px, -140px, 82px, 82px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_social_blog', );
+$icon-social-cafe-name: 'icon_social_cafe';
+$icon-social-cafe-x: 274px;
+$icon-social-cafe-y: 0px;
+$icon-social-cafe-offset-x: -274px;
+$icon-social-cafe-offset-y: 0px;
+$icon-social-cafe-width: 82px;
+$icon-social-cafe-height: 82px;
+$icon-social-cafe-total-width: 432px;
+$icon-social-cafe-total-height: 304px;
+$icon-social-cafe-image: 'src/img/sprites/sprite.png';
+$icon-social-cafe: (274px, 0px, -274px, 0px, 82px, 82px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_social_cafe', );
+$icon-social-kakao-name: 'icon_social_kakao';
+$icon-social-kakao-x: 274px;
+$icon-social-kakao-y: 82px;
+$icon-social-kakao-offset-x: -274px;
+$icon-social-kakao-offset-y: -82px;
+$icon-social-kakao-width: 82px;
+$icon-social-kakao-height: 82px;
+$icon-social-kakao-total-width: 432px;
+$icon-social-kakao-total-height: 304px;
+$icon-social-kakao-image: 'src/img/sprites/sprite.png';
+$icon-social-kakao: (274px, 82px, -274px, -82px, 82px, 82px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_social_kakao', );
+$icon-social-line-name: 'icon_social_line';
+$icon-social-line-x: 0px;
+$icon-social-line-y: 222px;
+$icon-social-line-offset-x: 0px;
+$icon-social-line-offset-y: -222px;
+$icon-social-line-width: 82px;
+$icon-social-line-height: 82px;
+$icon-social-line-total-width: 432px;
+$icon-social-line-total-height: 304px;
+$icon-social-line-image: 'src/img/sprites/sprite.png';
+$icon-social-line: (0px, 222px, 0px, -222px, 82px, 82px, 432px, 304px, 'src/img/sprites/sprite.png', 'icon_social_line', );
+$logo-service-name: 'logo_service';
+$logo-service-x: 140px;
+$logo-service-y: 0px;
+$logo-service-offset-x: -140px;
+$logo-service-offset-y: 0px;
+$logo-service-width: 134px;
+$logo-service-height: 134px;
+$logo-service-total-width: 432px;
+$logo-service-total-height: 304px;
+$logo-service-image: 'src/img/sprites/sprite.png';
+$logo-service: (140px, 0px, -140px, 0px, 134px, 134px, 432px, 304px, 'src/img/sprites/sprite.png', 'logo_service', );
+$text-link-name: 'text_link';
+$text-link-x: 180px;
+$text-link-y: 222px;
+$text-link-offset-x: -180px;
+$text-link-offset-y: -222px;
+$text-link-width: 172px;
+$text-link-height: 26px;
+$text-link-total-width: 432px;
+$text-link-total-height: 304px;
+$text-link-image: 'src/img/sprites/sprite.png';
+$text-link: (180px, 222px, -180px, -222px, 172px, 26px, 432px, 304px, 'src/img/sprites/sprite.png', 'text_link', );
+$thumb-list-name: 'thumb_list';
+$thumb-list-x: 0px;
+$thumb-list-y: 0px;
+$thumb-list-offset-x: 0px;
+$thumb-list-offset-y: 0px;
+$thumb-list-width: 140px;
+$thumb-list-height: 140px;
+$thumb-list-total-width: 432px;
+$thumb-list-total-height: 304px;
+$thumb-list-image: 'src/img/sprites/sprite.png';
+$thumb-list: (0px, 0px, 0px, 0px, 140px, 140px, 432px, 304px, 'src/img/sprites/sprite.png', 'thumb_list', );
+$spritesheet-width: 432px;
+$spritesheet-height: 304px;
+$spritesheet-image: 'src/img/sprites/sprite.png';
+$spritesheet-sprites: ($icon-arrow, $icon-arrow2, $icon-check, $icon-dot, $icon-facebook, $icon-more, $icon-mt, $icon-school, $icon-shop, $icon-social-band, $icon-social-blog, $icon-social-cafe, $icon-social-kakao, $icon-social-line, $logo-service, $text-link, $thumb-list, );
+$spritesheet: (432px, 304px, 'src/img/sprites/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
