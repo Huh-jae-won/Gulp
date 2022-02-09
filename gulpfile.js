@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 const spritesmith = require('gulp.spritesmith');
+const browserSync = require('browser-sync');
 
 const path = {
   html_path: 'src',
@@ -38,4 +39,26 @@ gulp.task('sprite', function () {
       .on('end', resolve);
   });
   return Promise.all([imgStream, cssStream]);
+});
+
+gulp.task("browser-sync", function () {
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    }
+  });
+});
+gulp.task(
+  "watch", function () {
+    browserSync.init({
+      server: "./src/"
+    });
+    gulp.watch("./src/scss/*.scss", gulp.series("sass")).on("change", browserSync.reload);
+    gulp.watch("./src/*.html").on("change", browserSync.reload);
+  }
+);
+gulp.task("default", gulp.series("watch", "sass"));
+gulp.task("html", function () {
+  return gulp.src("./**/*.html")
+    .pipe(browserSync.reload({ stream: true }));
 });
